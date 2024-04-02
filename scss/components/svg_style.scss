@@ -1,0 +1,10 @@
+@use "../base/variables" as *;
+
+
+.robot-face{
+    fill: $robot-face-color;
+}
+
+.robot-redeyes{
+    transform: scaleZ(50);
+}

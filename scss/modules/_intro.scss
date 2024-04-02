@@ -1,0 +1,47 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts";
+
+.intro-bg{
+    @include bg_gradient($site-grey,18%);
+}
+
+.robo-img{
+    height:100vh;
+    width:100vw;
+    object-fit:cover;
+    object-position:top;
+
+    clip-path:polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    -webkit-clip-path:polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    -moz-clip-path:polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    mask-image: linear-gradient(to bottom, transparent 0.5%, black 99.5%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0.5%, black 99.5%);
+    -moz-mask-image: linear-gradient(to bottom, transparent 0.5%,black 99.5%);
+}
+
+.robo-img:hover{
+    filter: grayscale(40%);
+    transition: 1s;
+}
+.robo-img-wrapper{
+    filter: drop-shadow(-20px -8px 10px rgba(0, 0, 0, 0.5));
+    
+}
+
+.padder{
+    padding-left: 5rem !important;
+    padding-top: 8rem !important;
+}
+
+.intro-header{
+    color: darken($site-grey,10%);
+    font-family: "roboto";
+}
+
+.intro-text p{
+    font-family:"encode sans";
+    letter-spacing: 0.5px;
+    word-spacing: 0.3px;
+    font-weight:100;
+}

@@ -1,0 +1,8 @@
+
+@mixin bg_gradient($color,$amount)
+{
+    $light-color: lighten($color,$amount);
+    background: linear-gradient(to right,$color,$light-color);
+}
+
+// @mixin compatibility($property, $)

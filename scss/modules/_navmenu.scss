@@ -1,0 +1,50 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.navbrand-custom{
+    font-family: "orbitron";
+    font-size:37px;
+}
+.robogeniz{
+    font-family: "orbitron";
+    font-size:40px;
+    font-weight:bold;
+    color:$site-red;
+}
+
+.navbar-custom-bg{
+    @include bg_gradient($site-grey,18%);
+}
+.navitem-font{
+   text-transform:capitalize;
+ }
+.navitem-font:hover{
+    transform:scale(103%);
+    transition-property:transform;
+    transition-duration:0.15s;
+    transition-delay:1s;
+    transition-timing-function:ease-in-out;
+}
+.nav-item::after{
+    content:"";
+    background-color:$site-orange;
+    width:0%;
+    height:2px;
+    display:block;
+    position:absolute;
+    transition:0.30s;
+}
+.nav-item:hover::after{
+   width: 30%;
+   left: 35%;
+   right: 35%;
+}
+.navmenu-custom{
+    font-family:"lato";
+    white-space:nowrap;
+    word-spacing:1.7px;
+}

@@ -1,0 +1,20 @@
+
+$site-orange: #F1A661;//#F5F2E79;(gd-white-orng)//#E38B29;//#D36B00;//#B33030;//hsl(4, 82%, 67%);
+$site-grey:hsl(180, 7%, 19%);//#D8D9CF(ok); // hsl(209, 97, 86);
+$site-yellow: hsl(58, 89%, 93%);
+$site-green: hsl(183, 100%, 36%);
+$site-blue: #5F9DF7;
+$site-red: #B33030;
+$site-p:#D8D9CF;
+//$site-violet: #D58BDD; #B1B2FF;#B1B2FF;
+
+$site-theme-colors: ("site-orange": $site-orange,
+                     "site-grey":$site-grey,
+                     "site-yellow": $site-yellow,
+                     "site-green":$site-green,
+                     "site-blue": $site-blue,
+                     "site-red": $site-red,
+                     "site-p": $site-p
+                    );
+
+$robot-face-color: #F1A661;

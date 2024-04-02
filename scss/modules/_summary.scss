@@ -1,0 +1,28 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts" as *;
+
+
+// .aboutUs-bg{
+//     @include bg_gradient($site-grey,18%);
+// }
+#aboutUs{
+    margin-top:6rem;
+}
+#aboutUs .exp-custom{
+    font-size:1.3rem;
+}
+#aboutUs .auto-custom{
+    font-size:2.7rem;
+}
+#aboutUs .custom-p{
+    line-height:1.8rem;
+    font-size:17px;
+}
+.aboutUs-custom-btn{
+    font-size:17px;
+    &:hover{
+        background-color:transparent !important;
+        color:$site-red !important;
+    }
+}
