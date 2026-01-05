@@ -1,0 +1,74 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts";
+
+.products-section {
+    background: #e3e3e3;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-family: "roboto";
+    letter-spacing: 0.5px;
+    
+    @media (max-width: 768px) {
+        font-size: 1.8rem;
+    }
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    font-family: "encode sans";
+    letter-spacing: 0.3px;
+}
+
+.product-card {
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-img-wrapper {
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .product-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .product-body {
+        background: white;
+    }
+
+    .product-features {
+        li {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+.btn-site-orange {
+    background-color: $site-orange;
+    border: 2px solid $site-orange;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: darken($site-orange, 10%);
+        border-color: darken($site-orange, 10%);
+    }
+}

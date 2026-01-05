@@ -1,0 +1,30 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts";
+
+.use-cases-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.use-case-box {
+    background: white;
+    border-left: 4px solid $site-orange;
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        transform: translateX(5px);
+    }
+
+    .use-case-icon {
+        width: 60px;
+        height: 60px;
+        background: $site-orange;
+        flex-shrink: 0;
+    }
+
+    h5 {
+        font-family: "roboto";
+    }
+}

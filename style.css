@@ -5,6 +5,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11503,6 +11527,214 @@ textarea.form-control-lg {
 .aboutUs-custom-btn:hover {
   background-color: transparent !important;
   color: #B33030 !important;
+}
+
+.products-section {
+  background: #e3e3e3;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-family: "roboto";
+  letter-spacing: 0.5px;
+}
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  font-family: "encode sans";
+  letter-spacing: 0.3px;
+}
+
+.product-card {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.product-card .product-img-wrapper {
+  height: 250px;
+  overflow: hidden;
+}
+.product-card .product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.product-card .product-img:hover {
+  transform: scale(1.05);
+}
+.product-card .product-body {
+  background: white;
+}
+.product-card .product-features li {
+  margin-bottom: 0.5rem;
+}
+
+.btn-site-orange {
+  background-color: #F1A661;
+  border: 2px solid #F1A661;
+  transition: all 0.3s ease;
+}
+.btn-site-orange:hover {
+  background-color: #ed8c32;
+  border-color: #ed8c32;
+}
+
+.use-cases-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.use-case-box {
+  background: white;
+  border-left: 4px solid #F1A661;
+  transition: all 0.3s ease;
+}
+.use-case-box:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateX(5px);
+}
+.use-case-box .use-case-icon {
+  width: 60px;
+  height: 60px;
+  background: #F1A661;
+  flex-shrink: 0;
+}
+.use-case-box h5 {
+  font-family: "roboto";
+}
+
+.features-section {
+  background: #e3e3e3;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.feature-item {
+  transition: transform 0.3s ease;
+}
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+.feature-item .feature-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #5F9DF7, hsl(183deg, 100%, 36%));
+  box-shadow: 0 4px 15px rgba(95, 157, 247, 0.3);
+  transition: all 0.3s ease;
+}
+.feature-item .feature-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(95, 157, 247, 0.4);
+}
+.feature-item h5 {
+  font-family: "roboto";
+  font-size: 1.1rem;
+}
+
+.testimonials-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.testimonial-card {
+  background: white;
+  border-top: 4px solid #F1A661;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+.testimonial-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-5px);
+}
+.testimonial-card i.bi-star-fill {
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.testimonial-card .testimonial-author {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.cta-section {
+  background: linear-gradient(to right, hsl(180deg, 7%, 19%), #586565);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.cta-section .section-title {
+  font-size: 2.2rem;
+  font-family: "roboto";
+  letter-spacing: 0.5px;
+  color: #B33030;
+}
+@media (max-width: 768px) {
+  .cta-section .section-title {
+    font-size: 1.6rem;
+  }
+}
+.cta-section .btn {
+  font-family: "roboto";
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.cta-section .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.cta-section .btn-outline-site-orange {
+  border: 2px solid #F1A661;
+}
+.cta-section .btn-outline-site-orange:hover {
+  background-color: #F1A661;
+  color: hsl(180deg, 7%, 19%) !important;
+}
+
+.footer-section {
+  background-color: hsl(180deg, 7%, 19%);
+  color: #D8D9CF;
+  margin-top: 10px;
+}
+.footer-section a {
+  transition: color 0.3s ease;
+}
+.footer-section a:hover {
+  color: #F1A661 !important;
+}
+.footer-section .footer-social {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+.footer-section .footer-social i {
+  font-size: 1.1rem;
+}
+.footer-section .footer-social:hover {
+  background-color: #F1A661;
+}
+.footer-section .border-bottom {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.footer-section h6 {
+  font-family: "roboto";
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.footer-section .text-site-p {
+  color: #D8D9CF;
 }
 
 /*# sourceMappingURL=style.css.map */

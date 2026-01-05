@@ -1,0 +1,35 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts";
+
+.features-section {
+    background: #e3e3e3;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.feature-item {
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    .feature-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, $site-blue, $site-green);
+        box-shadow: 0 4px 15px rgba(95, 157, 247, 0.3);
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(95, 157, 247, 0.4);
+        }
+    }
+
+    h5 {
+        font-family: "roboto";
+        font-size: 1.1rem;
+    }
+}
