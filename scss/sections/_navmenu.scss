@@ -48,3 +48,19 @@
     white-space:nowrap;
     word-spacing:1.7px;
 }
+
+@media (max-width: 992px){
+    .nav-item::after{
+        content:"";
+        background-color:$site-orange;
+        width:0%;
+        height:2px;
+        display:block;
+        position:absolute;
+        transition:0.30s;
+    }
+    .nav-item:hover::after{
+       width: 30%;
+       left: 0;
+    }
+}

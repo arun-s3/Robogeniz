@@ -2,27 +2,139 @@
 @use "../base/mixins" as *;
 @use "../base/fonts" as *;
 
+#aboutUs {
+  margin-top: 6rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 
-// .aboutUs-bg{
-//     @include bg_gradient($site-grey,18%);
-// }
-#aboutUs{
-    margin-top:6rem;
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .exp-custom {
+    font-size: 1.2rem;
+  }
+
+  .auto-custom {
+    font-size: 2.6rem;
+  }
+
+  .custom-p {
+    line-height: 1.8;
+    font-size: 17px;
+    margin-bottom: 1rem;
+  }
+
+  .aboutUs-custom-btn {
+    font-size: 17px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+      background-color: transparent !important;
+      color: $site-red !important;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(255, 120, 80, 0.35);
+    }
+  }
+
+  .aboutUs-stats {
+    strong {
+      line-height: 1;
+    }
+  }
+
+  .reveal-img {
+    opacity: 0;
+    transform: scale(0.92);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  &.is-visible .reveal-img {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .reveal-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.7s ease;
+  }
+
+  &.is-visible .reveal-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.is-visible .reveal-text:nth-of-type(1) {
+    transition-delay: 0.1s;
+  }
+
+  &.is-visible .reveal-text:nth-of-type(2) {
+    transition-delay: 0.25s;
+  }
+
+  .reveal-stats > div {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+  }
+
+  &.is-visible .reveal-stats > div {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.is-visible .reveal-stats > div:nth-child(1) {
+    transition-delay: 0.2s;
+  }
+
+  &.is-visible .reveal-stats > div:nth-child(2) {
+    transition-delay: 0.35s;
+  }
 }
-#aboutUs .exp-custom{
-    font-size:1.3rem;
+
+@media (max-width: 992px) {
+    #aboutUs {
+        .auto-custom {
+            font-size: 2.2rem;
+        }
+
+        .custom-p {
+            font-size: 16px;
+        }
+    }
 }
-#aboutUs .auto-custom{
-    font-size:2.7rem;
+
+@media (max-width: 768px) {
+    #aboutUs {
+        text-align: center;
+
+        .auto-custom {
+            font-size: 2rem;
+        }
+
+        .aboutUs-stats {
+            justify-content: center;
+        }
+    }
 }
-#aboutUs .custom-p{
-    line-height:1.8rem;
-    font-size:17px;
-}
-.aboutUs-custom-btn{
-    font-size:17px;
-    &:hover{
-        background-color:transparent !important;
-        color:$site-red !important;
+
+@media (max-width: 576px) {
+    #aboutUs {
+        margin-top: 4rem;
+
+        .auto-custom {
+            font-size: 1.8rem;
+        }
+
+        .exp-custom {
+            font-size: 1.1rem;
+        }
+
+        .custom-p {
+            font-size: 15px;
+        }
     }
 }
