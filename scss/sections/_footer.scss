@@ -1,0 +1,47 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/fonts";
+
+.footer-section {
+    background-color: $site-grey;
+    color: $site-p;
+    margin-top: 10px;
+
+    a {
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: $site-orange !important;
+        }
+    }
+
+    .footer-social {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+
+        i {
+            font-size: 1.1rem;
+        }
+
+        &:hover {
+            background-color: $site-orange;
+        }
+    }
+
+    .border-bottom {
+        border-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    h6 {
+        font-family: "roboto";
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .text-site-p {
+        color: $site-p;
+    }
+}

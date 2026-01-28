@@ -2,29 +2,108 @@
 @use "../base/mixins" as *;
 @use "../base/fonts";
 
-.use-cases-section {
+.use-cases-section{
     padding-top: 4rem;
     padding-bottom: 4rem;
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+
+    &.is-visible{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .section-title,
+    .section-subtitle{
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.6s ease;
+    }
+
+    &.is-visible{
+        .section-title{
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.1s;
+        }
+
+        .section-subtitle{
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.25s;
+        }
+    }
+
+    .reveal-card{
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.6s ease;
+    }
+
+    &.is-visible{
+        .reveal-card{
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-card:nth-child(1){
+            transition-delay: 0.2s;
+        }
+
+        .reveal-card:nth-child(2){
+            transition-delay: 0.35s;
+        }
+
+        .reveal-card:nth-child(3){
+            transition-delay: 0.5s;
+        }
+
+        .reveal-card:nth-child(4){
+            transition-delay: 0.65s;
+        }
+    }
 }
 
-.use-case-box {
+.use-case-box{
     background: white;
     border-left: 4px solid $site-orange;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-    &:hover {
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-        transform: translateX(5px);
+    &:hover{
+        transform: translateY(-6px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
     }
 
-    .use-case-icon {
-        width: 60px;
-        height: 60px;
-        background: $site-orange;
-        flex-shrink: 0;
-    }
-
-    h5 {
+    h5{
         font-family: "roboto";
     }
+}
+
+.reveal-icon{
+    width: 60px;
+    height: 60px;
+    background: $site-orange;
+    flex-shrink: 0;
+
+    opacity: 0;
+    transform: scale(0.7) rotate(-10deg);
+    transition: all 0.5s ease;
+}
+
+.is-visible .reveal-icon{
+    opacity: 1;
+    transform: scale(1) rotate(0);
+}
+
+.reveal-text{
+    opacity: 0;
+    transform: translateY(15px);
+    transition: all 0.5s ease;
+}
+
+.is-visible .reveal-text{
+    opacity: 1;
+    transform: translateY(0);
 }
