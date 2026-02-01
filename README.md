@@ -5,6 +5,7 @@ Robogeniz is a **frontend-only homepage** for a fictional **robot model developm
 This project focuses on  **clean UI engineering, UI design, scalable SCSS architecture, and controlled interaction design.**
 
 ---
+<img src="./Images/cyborg3.png" align="right" width="140" alt="Project logo"/>
 
 ## 🎯 Project Goals
 
@@ -35,7 +36,8 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ![Navmenu](./screenshots/navmenu-hero.png)
 
----
+..................................................................................................
+
 
 ### 📊 About Us Summary + Stats
 
@@ -43,7 +45,8 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ![AboutUs](./screenshots/about-us-stats.png)
 
----
+..................................................................................................
+
 
 ### 🧩 Products Section
 
@@ -51,7 +54,8 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ![Products](./screenshots/products.png)
 
----
+..................................................................................................
+
 
 ### 🏭 Use Cases
 
@@ -59,7 +63,8 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ![UseCases](./screenshots/use-cases.png)
 
----
+..................................................................................................
+
 
 ### ⚙️ Features Section
 
@@ -67,7 +72,8 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ![Features](./screenshots/features.png)
 
----
+..................................................................................................
+
 
 ### 💬 Testimonials
 
@@ -75,7 +81,8 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ![Testimonies](./screenshots/testimonies.png)
 
----
+..................................................................................................
+
 
 ### 📬 Call to Action (CTA) and Footer
 
@@ -198,15 +205,6 @@ So as to make the site professional, modern, and aligned (or atleast close to) w
 * **SCSS (modular architecture)**
 * **JavaScript (Vanilla)**
 * **Bootstrap (SCSS-customized)**
-
----
-
-## 📌 Project Scope Clarification
-
-* Frontend-only
-* Single-page homepage
-* No backend, routing, or data persistence
-* Focused on **design systems, layout, and UI behavior**
 
 ---
 
