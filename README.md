@@ -33,7 +33,7 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 * Clean, responsive navigation with clear hierarchy and theme-aligned styling
 * Strong brand introduction using bold typography, color contrast, and subtle motion.
 
-![Dashboard](./screenshots/navmenu-hero.png)
+![Navmenu](./screenshots/navmenu-hero.png)
 
 ---
 
@@ -41,7 +41,7 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 **Details:** Concise company overview supported by structured stats for quick credibility.
 
-![Dashboard](./screenshots/about-us-stats.png)
+![AboutUs](./screenshots/about-us-stats.png)
 
 ---
 
@@ -49,7 +49,7 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 **Details:** Clearly organized product cards focused on clarity and scannability.
 
-![Dashboard](./screenshots/products.png)
+![Products](./screenshots/products.png)
 
 ---
 
@@ -57,7 +57,7 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 **Details:** Maps robots to real-world environments using structured, responsive layouts.
 
-![Dashboard](./screenshots/use-cases.png)
+![UseCases](./screenshots/use-cases.png)
 
 ---
 
@@ -65,7 +65,7 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 **Details:** Feature blocks with subtle reveal animations for guided attention.
 
-![Dashboard](./screenshots/features.png)
+![Features](./screenshots/features.png)
 
 ---
 
@@ -73,18 +73,18 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 **Details:** Social proof presented with balanced typography and minimal motion.
 
-![Dashboard](./screenshots/testimonies.png)
+![Testimonies](./screenshots/testimonies.png)
 
 ---
 
 ### 📬 Call to Action (CTA) and Footer
 
-**Details:** 
+**Details:**
 
 * Visually distinct section designed to naturally guide user conversion.
 * Clean closure with consistent branding and supporting links.
 
-![Dashboard](./screenshots/footer.png)
+![Footer](./screenshots/footer.png)
 
 ---
 
@@ -219,5 +219,11 @@ Robogeniz demonstrates:
 * Scalable SCSS architecture
 * Controlled DOM-based interactions
 * Design restraint and visual consistency
+
+---
+
+## 📄 License
+
+MIT
 
 ---
