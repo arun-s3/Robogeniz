@@ -16,7 +16,7 @@ This project focuses on  **clean UI engineering, UI design, scalable SCSS archit
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Live Web Application
 
 👉 [robogeniz.netlify.app](https://robogeniz.netlify.app)
 
@@ -196,7 +196,8 @@ So as to make the site professional, modern, and aligned (or atleast close to) w
 
 * **HTML5**
 * **SCSS (modular architecture)**
-* **JavaScript (Vanilla)**
+* **Vanilla JavaScript (ES6+)**
+* **Intersection Observer**
 * **Bootstrap (SCSS-customized)**
 
 ---
