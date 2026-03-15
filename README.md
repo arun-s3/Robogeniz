@@ -5,7 +5,6 @@ Robogeniz is a **frontend-only homepage** for a fictional **robot model developm
 This project focuses on  **clean UI engineering, UI design, scalable SCSS architecture, and controlled interaction design.**
 
 ---
-<img src="./Images/cyborg3.png" align="right" width="140" alt="Project logo"/>
 
 ## 🎯 Project Goals
 
@@ -38,7 +37,6 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ..................................................................................................
 
-
 ### 📊 About Us Summary + Stats
 
 **Details:** Concise company overview supported by structured stats for quick credibility.
@@ -46,7 +44,6 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 ![AboutUs](./screenshots/about-us-stats.png)
 
 ..................................................................................................
-
 
 ### 🧩 Products Section
 
@@ -56,7 +53,6 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ..................................................................................................
 
-
 ### 🏭 Use Cases
 
 **Details:** Maps robots to real-world environments using structured, responsive layouts.
@@ -64,7 +60,6 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 ![UseCases](./screenshots/use-cases.png)
 
 ..................................................................................................
-
 
 ### ⚙️ Features Section
 
@@ -74,7 +69,6 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 
 ..................................................................................................
 
-
 ### 💬 Testimonials
 
 **Details:** Social proof presented with balanced typography and minimal motion.
@@ -82,7 +76,6 @@ A visual overview of Robogeniz’s homepage, highlighting structure, responsiven
 ![Testimonies](./screenshots/testimonies.png)
 
 ..................................................................................................
-
 
 ### 📬 Call to Action (CTA) and Footer
 
